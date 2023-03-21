@@ -1,0 +1,2 @@
+<h3> git branch </h3>
+<p> med git branch kan man se alla branches som existerar i sin git repository</p>
