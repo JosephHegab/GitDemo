@@ -15,3 +15,6 @@
 
 <h3>git merge --no-commit</h3>
 <p>Combine branch into the current branch, but do not make a new commit.</p>
+
+<h3>git merge --no-ff</h3>
+<p>Creates a merge commit instead of attempting a fast-forward.</p>
