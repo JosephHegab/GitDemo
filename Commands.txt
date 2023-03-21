@@ -27,3 +27,5 @@
 måste vara extra vacksam om man forstätter sitt arbete med commits då de kan tappas bort väldigt lätt </p>
 <h3> git checkout -b <branch-name><tag-name> <h3>
 <p> detta kommando är väldigt likt förra kommandot men i detta fallet är det på branch nivå </p>
+<h3> git cherry-pick [insert commit refrence]</h3>
+<p> detta kommando används för att kunna göra commit ändringar i en annan branch en den du är och jobbar i </p>
