@@ -7,3 +7,9 @@
 <h3>git merge --abort</h3>
 <p>Aborts the merge process and restores the project’s state to before the merge was attempted. This works as a failsafe when a conflict occurs.</p>
 
+<h3>git merge --continue</h3>
+<p>Attempt to complete a merge that was stopped due to file conflicts after resolving the merge conflict.</p>
+
+<h3>git merge --squash</h3>
+<p>Combine all changes from the branch being merged into a single commit rather than preserving them as individual commits.</p>
+
