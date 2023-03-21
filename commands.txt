@@ -39,3 +39,6 @@
 
 <h3>git pull --all</h3>
 <p>Fetch all remotes. </p>
+
+<h3>git pull --dry-run</h3>
+<p>Show the action that would be completed without actually making changes to your repo.</p>
