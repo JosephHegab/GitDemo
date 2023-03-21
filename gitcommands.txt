@@ -10,3 +10,5 @@
 <p>Klona ett arkiv och kolla in den specifika grenen.<p>
 <h3>git clone <repository-url> --depth <depth><h3>
 <p>Klona ett arkiv med ett specificerat antal commits<p>
+<h3>git clone <repository-url> --no-tags<h3>
+<p>Klona ett arkiv utan att kopiera repets taggar.<p>
