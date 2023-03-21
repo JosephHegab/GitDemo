@@ -23,5 +23,7 @@
 <h3> git checkout <commit hash> </h3>
 <p> detta kommando används för att byta till en föregående commit som gjorts </p>
 <h3> git checkout <tag name> </h3>
-<p> detta kommando används för att "Detach head" vilket menas att din branch nu inte till hör något repository vilket gör att man
+<p> detta kommando används för att "Detach head" vilket menas att ditt repository nu är "löst" vilket gör att man
 måste vara extra vacksam om man forstätter sitt arbete med commits då de kan tappas bort väldigt lätt </p>
+<h3> git checkout -b <branch-name><tag-name> <h3>
+<p> detta kommando är väldigt likt förra kommandot men i detta fallet är det på branch nivå </p>
