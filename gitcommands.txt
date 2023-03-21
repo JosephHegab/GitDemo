@@ -1,0 +1,2 @@
+<h3> git cherry-pick [insert commit reference]<h3>
+<p>Tillämpa en commits ändringar på en annan gren.<p>
