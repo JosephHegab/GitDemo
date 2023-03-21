@@ -36,3 +36,6 @@
 
 <h3>git pull --no-ff</h3>
 <p>Create a merge commit in all cases, even when the merge could instead be resolved as a fast-forward.</p>
+
+<h3>git pull --all</h3>
+<p>Fetch all remotes. </p>
