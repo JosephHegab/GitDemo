@@ -33,3 +33,6 @@
 
 <h3>git pull --no-commit</h3>
 <p>Combine the currently checked out branch with the remote upstream branch.</p>
+
+<h3>git pull --no-ff</h3>
+<p>Create a merge commit in all cases, even when the merge could instead be resolved as a fast-forward.</p>
