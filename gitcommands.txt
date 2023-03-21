@@ -24,3 +24,5 @@
 <p>Redigera ett Git commit-meddelande genom att lägga till ett meddelande inom citattecken efter kommandot.<p>
 <h3>git commit -m<h3>
 <p>Lägg till ett Git commit-meddelande. Lägg till ditt meddelande inom citattecken efter kommandot.<p>
+<h3>git config --global <h3>
+<p>Anpassa konfigurationer som är lagrade i din hemkatalog och kan skriva över Git config-systeminställningar<p>
