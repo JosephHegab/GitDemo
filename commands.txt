@@ -3,3 +3,7 @@
 
 <h3>git merge <branch-name></h3>
 <p> Merge changes from one branch into the branch you currently have checked out.</p>
+
+<h3>git merge --abort</h3>
+<p>Aborts the merge process and restores the project’s state to before the merge was attempted. This works as a failsafe when a conflict occurs.</p>
+
