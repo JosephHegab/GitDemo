@@ -1,0 +1,2 @@
+<h3>git merge</h3>
+<p>Git merge är en funktion som används för att kombinera två eller flera olika grenar (branches) av en Git-repository till en enda gren. Detta görs genom att integrera alla ändringar från de separata grenarna till en sammanfogad gren.</p>
