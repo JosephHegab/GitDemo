@@ -21,3 +21,6 @@
 
 <h3>git pull</h3>
 <p>This will perform a git fetch followed by a git merge FETCH_HEAD, and will allow you to fetch from and integrate with another repository or a local branch.</p>
+
+<h3>git pull --quiet</h3>
+<p>Suppress the output text after both git fetch and git merge.</h3>
