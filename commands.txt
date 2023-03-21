@@ -27,3 +27,6 @@
 
 <h3>git pull --verbose</h3>
 <p>Expand the output text after both git fetch and git merge.</p>
+
+<h3>git pull --squash</h3>
+<p>Combine all changes from the branch being merged into a single commit, rather than preserving the individual commits.</p>
