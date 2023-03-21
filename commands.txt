@@ -24,3 +24,6 @@
 
 <h3>git pull --quiet</h3>
 <p>Suppress the output text after both git fetch and git merge.</h3>
+
+<h3>git pull --verbose</h3>
+<p>Expand the output text after both git fetch and git merge.</p>
