@@ -1,44 +1,44 @@
 <h3>git merge</h3>
-<p>Combine two or more development histories together. Used in combination with fetch, this will combine the fetched history from a remote branch into the currently checked out local branch.</p>
+<p>Används för att sammanfoga två olika grenar (branches) i Git-repositoryn. När man använder detta kommando, kommer Git att integrera alla ändringar från den angivna grenen till den nuvarande grenen.</p>
 
 <h3>git merge <branch-name></h3>
-<p> Merge changes from one branch into the branch you currently have checked out.</p>
+<p>Med detta kommando kan man sammanfoga en annan gren (branch) i den nuvarande grenen i Git-repositoryn. Detta görs genom att ange namnet på den gren som ska sammanfogas.</p>
 
 <h3>git merge --abort</h3>
-<p>Aborts the merge process and restores the project’s state to before the merge was attempted. This works as a failsafe when a conflict occurs.</p>
+<p>Om det uppstår problem under en sammanfogning (merge), kan man avbryta processen genom att använda detta Git-kommando. Detta gör att sammanfogningen avbryts och allt återställs till hur det var innan sammanfogningen påbörjades.</p>
 
 <h3>git merge --continue</h3>
-<p>Attempt to complete a merge that was stopped due to file conflicts after resolving the merge conflict.</p>
+<p>När man har löst eventuella konflikter som uppstår under en sammanfogning (merge), kan man fortsätta processen genom att använda detta Git-kommando. Detta gör att Git fortsätter med sammanfogningen och integrerar de ändringar som varit blockerade av konflikterna.</p>
 
 <h3>git merge --squash</h3>
-<p>Combine all changes from the branch being merged into a single commit rather than preserving them as individual commits.</p>
+<p>Med detta kommand kan man slå ihop alla ändringar från en annan gren (branch) till en enda commit i den nuvarande grenen. Detta kan vara användbart om man vill ha en renare historik och slå ihop flera mindre commits till en enda större commit.</p>
 
 <h3>git merge --no-commit</h3>
-<p>Combine branch into the current branch, but do not make a new commit.</p>
+<p>Genom att använda detta Git-kommando kan man sammanfoga två branches utan att skapa en automatisk commit. Detta gör att man kan fortsätta arbeta med ändringarna och eventuellt göra fler justeringar innan man utför en commit.</p>
 
 <h3>git merge --no-ff</h3>
-<p>Creates a merge commit instead of attempting a fast-forward.</p>
+<p>När man sammanfogar två branches i Git, skapar Git automatiskt en ny commit. Genom att använda detta Git-kommando kan man tvinga Git att skapa en ny commit även om sammanfogningen är enkel och inga konflikter uppstår.</p>
 
 <h3>git pull</h3>
-<p>This will perform a git fetch followed by a git merge FETCH_HEAD, and will allow you to fetch from and integrate with another repository or a local branch.</p>
+<p>Detta Git-kommando används för att hämta alla ändringar från en remote branch och integrera dem i den lokala grenen. Detta kommando innehåller både git fetch och git merge.</p>
 
 <h3>git pull --quiet</h3>
-<p>Suppress the output text after both git fetch and git merge.</h3>
+<p>När man använder detta Git-kommando kommer Git att utföra git pull utan att visa någon utmatning (output) på skärmen.</h3>
 
 <h3>git pull --verbose</h3>
-<p>Expand the output text after both git fetch and git merge.</p>
+<p>Detta Git-kommando utför en git pull, men visar mer detaljerad information på skärmen än vad som visas som standard. Detta är användbart om man vill se mer information om de ändringar som hämtas eller om det uppstår problem under hämtningen.</p>
 
 <h3>git pull --squash</h3>
-<p>Combine all changes from the branch being merged into a single commit, rather than preserving the individual commits.</p>
+<p>Genom att använda detta Git-kommando kan man slå ihop alla ändringar från en branch till en enda commit i den lokala grenen. Istället för att utföra en sammanfogning av varje commit i fjärrgrenen, slås de alla samman till en enda commit i den lokala grenen.</p>
 
 <h3>git pull --no-commit</h3>
-<p>Combine the currently checked out branch with the remote upstream branch.</p>
+<p>Om man inte vill att Git automatiskt ska skapa en commit när man hämtar och integrerar ändringar från en branch, kan man använda detta Git-kommando. Istället för att skapa en commit, lägger Git de integrerade ändringarna i en icke-committad ändringssamling (change set), vilket gör det möjligt att redigera samlingen innan en commit utförs.</p>
 
 <h3>git pull --no-ff</h3>
-<p>Create a merge commit in all cases, even when the merge could instead be resolved as a fast-forward.</p>
+<p>Som standard skapar Git en enkel "merge-commit" när man hämtar och integrerar ändringar från en fjärrgren. Genom att använda detta Git-kommando tvingar man Git att skapa en ny commit även om sammanfogningen är enkel och inga konflikter uppstår.</p>
 
 <h3>git pull --all</h3>
-<p>Fetch all remotes. </p>
+<p>Detta Git-kommando används för att hämta alla ändringar från alla remote branches och integrera dem i motsvarande lokala grenar (local branches). Detta kommando uppdaterar alla grenar i repositoryn med de senaste ändringarna från fjärrservern. </p>
 
 <h3>git pull --dry-run</h3>
-<p>Show the action that would be completed without actually making changes to your repo.</p>
+<p>Om man vill se vad som kommer att hända vid en git pull utan faktiskt utföra kommandot, kan man använda detta Git-kommando. Detta kommer att simulera utförandet av git pull och visa vilka ändringar som skulle hämtas utan att faktiskt hämta dem. Detta kan vara användbart för att se vad som skulle hända utan att riskera att råka skriva över eller förlora några lokala ändringar.</p>
